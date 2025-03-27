@@ -6,6 +6,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+## Get Started
+1. clone repositori ini
+2. jalankan composer install
+3. buka terminal jalankan 'cp .env.example .env'
+4. konfigurasi database mysql di file env
+5. jalankan php artisan key:generate
+6. jalankan php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+7. jalankan php artisan jwt:secret
+8. jalankan php artisan migrate kemudian klik enter saat muncul Would you like to create it? (yes/no) [yes]
+9. jalankan php artisan db:seed 
+10. jalankan php artisan storage:link 
+11. jalankan php artisan serve
+selesai 
+
 
 ## About Laravel
 
